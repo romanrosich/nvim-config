@@ -281,3 +281,7 @@ autocmd FileType python imap <buffer> <C-r> <esc>:w<CR>:exec '!python3' shellesc
 ```bash
 npm install -g pyright
 ```
+Для установки плагинов непосредственно в Nvim вводим команду:
+```bash
+:PlugInstall
+```
